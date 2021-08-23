@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.body-container {
+  font-family: 'Noto Sans JP', sans-serif;
+  background-color: rebeccapurple;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.pw-container {
+  background-color: rgb(46, 12, 80);
+  box-shadow: 0 4px 10px rgb(0, 0, 0, 0.5);
+  min-width: 400px;
+}
+
+.pw-header {
+  padding: 1rem;
+}
+
+
+
+.pw {
+  background-color: rebeccapurple;
+  display: flex;
+  font-size: 2rem;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+  position: relative;
+  padding: 1rem;
+}
+
+.copy {
+  background-color: #37003c;
+  border: 2px solid #37003c;
+  font-family: inherit;
+  font-weight: bolder;
+  color: white;
+  cursor: pointer;
+  padding: 0.5rem 0.5rem;
+  position: absolute;
+  top: 8.1rem;
+  left: 56.1%;
+  transform: translate(100%, 100%);
+  transition: 0.3s ease;
+  opacity: 0.1;
+}
+
+.copy:hover {
+  background-color: white;
+  color: #37003c;
+  opacity: 1;
+  border: 2px solid #37003c;
+}
+
+.pw-body {
+  padding: 0 1rem;
+}
+
+.form-control {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem 0;
+}
+
+.genBtn-container {
+  padding: 1rem;
+}
+
+.generate {
+  background-color: #ecb602;
+  border: none;
+  color: rebeccapurple;
+  cursor: pointer;
+  display: block;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 0.75rem;
+  width: 100%;
+  transition: 0.2s ease;
+}
+
+.generate:hover {
+  background-color: #ddff00;
+}
